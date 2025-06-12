@@ -74,23 +74,15 @@ nav {
 /* Navigation */
 .nav-links {
     display: flex;
-    list-style: none;
-    gap: 1rem;
+    gap: 1.5rem;
+    align-items: center;
 }
 
 .nav-links a {
+    color: white;
     text-decoration: none;
-    color: #666;
     font-weight: 500;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    transition: all 0.2s;
-}
-
-.nav-links a:hover,
-.nav-links a.active {
-    background: #f0f7e8;
-    color: #2d5016;
+    white-space: nowrap;
 }
 
 /* Pages */
@@ -138,29 +130,30 @@ nav {
     gap: 2rem;
 }
 
+/* Service Cards */
 .service-card {
     background: white;
-    padding: 2.5rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    border: 1px solid #e8f5e8;
-    transition: transform 0.2s;
-}
-
-.service-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .service-card h3 {
-    color: #2d5016;
+    color: var(--primary-color);
     margin-bottom: 1rem;
-    font-size: 1.3rem;
 }
 
 .service-card p {
     margin-bottom: 1.5rem;
-    color: #666;
+    flex-grow: 1;
+}
+
+.card-footer {
+    margin-top: auto;
+    padding-top: 1rem;
 }
 
 /* Call to Action */

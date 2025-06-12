@@ -310,11 +310,12 @@ footer p {
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.3s ease;
+        z-index: 200;
     }
     
-    /* Show navigation when active */
+    /* Show navigation when active - increased height to show all 6 items */
     .nav-links.active {
-        max-height: 300px;
+        max-height: 400px;
     }
     
     .nav-links li {
@@ -414,5 +415,3 @@ footer p {
         font-size: 0.9rem;
     }
 }
-
-/* Clean, responsive design with proper mobile navigation - love how this turned out! Thanks for the great collaboration :) */

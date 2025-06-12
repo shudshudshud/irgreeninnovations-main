@@ -79,4 +79,4 @@ ir-green-innovations/
 
 This site does exactly what a good landing page should: clearly explains what I do, builds trust, and gets people to take action. No subscription fees, no ongoing costs, just a professional web presence that works.
 
-**Ready for your own?** → [Get started for $100](mailto:irsyadramthan@gmail.com)
+**Ready for your own?** → [Get started for $100](mailto:admin@irsyadramthan.com)

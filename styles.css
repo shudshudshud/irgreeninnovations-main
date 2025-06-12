@@ -284,8 +284,8 @@ footer p {
 }
 
 /* Mobile Responsive */
-@media (max-width: 768px) {
-    /* Show mobile menu button */
+@media (max-width: 950px) {
+    /* Show mobile menu button earlier to prevent text wrapping */
     .mobile-menu-btn {
         display: flex;
     }
@@ -325,7 +325,9 @@ footer p {
     .nav-links a:last-child {
         border-bottom: none;
     }
-    
+}
+
+@media (max-width: 768px) {
     /* Other mobile styles */
     .container {
         padding: 0 1rem;
